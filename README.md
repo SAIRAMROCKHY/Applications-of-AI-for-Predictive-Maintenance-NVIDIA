@@ -30,8 +30,8 @@ More detailed information and links for the course can be found on the [course w
 
 The description of the files in this repository can be found below:
 - 1 - Training XGBoost Models with RAPIDS for Time Series:
-  - [Lab1-XGBoost-For-Timeseries](https://github.com/HROlive/Applications-of-AI-for-Predictive-Maintenance/blob/main/Lab1-XGBoost-For-Timeseries.ipynb) - Notebook;
-  - [Lab1-Presentation_202208](https://github.com/HROlive/Applications-of-AI-for-Predictive-Maintenance/blob/main/Lab1-Presentation_202208.pptx) - Slides;
+  - [Lab1-XGBoost-For-Timeseries](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab1-XGBoost-For-Timeseries.ipynb) - Notebook;
+  - [Lab1-Presentation_202208](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab1-Presentation_202208.pptx) - Slides;
 <br></br>
   > Learn how to predict part failures using XGBoost classification on GPUs with cuDF:
     > - Prepare real data for efficient GPU ingestion with RAPIDS cuDF.
@@ -39,8 +39,8 @@ The description of the files in this repository can be found below:
     > - Compare and discuss performance and accuracy results for XGBoost using CPUs, GPUs, and GPUs with cuDF.
 ______________
 - 2 - Training LSTM Models Using Keras and TensorFlow for Time Series:
-  - [Lab2-LSTM-For-Timeseries](https://github.com/HROlive/Applications-of-AI-for-Predictive-Maintenance/blob/main/Lab2-LSTM-For-Timeseries.ipynb) - Notebook;
-  - [Lab2-Presentation_202208](https://github.com/HROlive/Applications-of-AI-for-Predictive-Maintenance/blob/main/Lab2-Presentation_202208.pptx) - Slides;
+  - [Lab2-LSTM-For-Timeseries](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab2-LSTM-For-Timeseries.ipynb) - Notebook;
+  - [Lab2-Presentation_202208](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab2-Presentation_202208.pptx) - Slides;
 <br></br>
   > Learn how to predict part failures using a deep learning LSTM model with time-series data:
     > - Prepare sequenced data for time-series model training.
@@ -48,9 +48,9 @@ ______________
     > - Evaluate the accuracy of the model.
 ______________
 - 3 - Training Autoencoders for Anomaly Detection:
-  - [Lab3-AE-For-Anomaly-Detection](https://github.com/HROlive/Applications-of-AI-for-Predictive-Maintenance/blob/main/Lab3-AE-For-Anomaly-Detection.ipynb) - Notebook;
-  - [Lab3-Presentation_202208](https://github.com/HROlive/Applications-of-AI-for-Predictive-Maintenance/blob/main/Lab3-Presentation_202208.pptx) - Slides;
-  - [assignment](https://github.com/HROlive/Applications-of-AI-for-Predictive-Maintenance/blob/main/assignment.py) - Assessment;
+  - [Lab3-AE-For-Anomaly-Detection](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab3-AE-For-Anomaly-Detection.ipynb) - Notebook;
+  - [Lab3-Presentation_202208](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab3-Presentation_202208.pptx) - Slides;
+  - [assignment](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/assignment.py) - Assessment;
 <br></br>
   > Learn how to predict part failures using anomaly detection with autoencoders:
     > - Build and train an LSTM autoencoder.

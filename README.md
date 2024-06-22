@@ -1,59 +1,75 @@
-![Course](images/banner.jpg)
+# Predictive Maintenance with AI Workshop
+
+![Course Banner](images/banner.jpg)
 
 ## Table of Contents
 1. [Description](#description)
 2. [Information](#information)
-3. [File descriptions](#files)
+3. [File Descriptions](#files)
 4. [Certificate](#certificate)
+5. [Quizzes](#quizzes)
 
-<a name="descripton"></a>
+<a name="description"></a>
 ## Description
 
-According to the International Society of Automation, $647 billion is lost globally each year due to downtime from machine failure. Organizations across manufacturing, aerospace, energy, and other industrial sectors are overhauling maintenance processes to minimize costs and improve efficiency. With artificial intelligence and machine learning, organizations can apply predictive maintenance to their operation, processing huge amounts of sensor data to detect equipment failure before it happens. Compared to routine-based or time-based preventative maintenance, predictive maintenance gets ahead of the problem and can save a business from costly downtime.
-
-In this workshop, we learned how to identify anomalies and failures in time-series data, estimate the remaining useful life of the corresponding parts, and map anomalies to failure conditions. More specifically, how to prepare time-series data for AI model training, develop an XGBoost ensemble tree model, build a deep learning model using a long short-term memory (LSTM) network, and create an autoencoder that detects anomalies for predictive maintenance. At the end of the workshop, we are able to use AI to estimate the condition of equipment and predict when maintenance should be performed.
+According to the International Society of Automation, $647 billion is lost globally each year due to downtime from machine failure. Organizations across manufacturing, aerospace, energy, and other industrial sectors are leveraging artificial intelligence and machine learning for predictive maintenance. This workshop focuses on identifying anomalies in time-series data, estimating remaining useful life, and mapping anomalies to failure conditions. Participants learn to use AI to predict equipment conditions and optimize maintenance schedules, thus minimizing costly downtime.
 
 <a name="information"></a>
 ## Information
 
-The overall goals of this course were the following:
-> - use AI-based predictive maintenance to prevent failures and unplanned downtimes;
-> - identify key challenges around detecting anomalies that can lead to costly breakdowns;
-> - use time-series data to predict outcomes with XGBoost-based machine learning classification models;
-> - use an LSTM-based model to predict equipment failure;
-> - use anomaly detection with time-series autoencoders to predict failures when limited failure-example data is available.
+The goals of this workshop are:
+- Use AI-based predictive maintenance to prevent failures and unplanned downtimes.
+- Identify challenges in anomaly detection leading to costly breakdowns.
+- Predict outcomes using XGBoost-based machine learning models for time-series data.
+- Implement LSTM models for equipment failure prediction.
+- Utilize autoencoders for anomaly detection with limited failure-example data.
 
-More detailed information and links for the course can be found on the [course website](https://www.nvidia.com/en-us/training/instructor-led-workshops/predictive-maintenance/).
+For detailed information and links, visit the [course website](https://www.nvidia.com/en-us/training/instructor-led-workshops/predictive-maintenance/).
 
 <a name="files"></a>
-## File descriptions
+## File Descriptions
 
-The description of the files in this repository can be found below:
-- 1 - Training XGBoost Models with RAPIDS for Time Series:
-  - [Lab1-XGBoost-For-Timeseries](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab1-XGBoost-For-Timeseries.ipynb) - Notebook;
-  - [Lab1-Presentation_202208](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab1-Presentation_202208.pptx) - Slides;
-<br></br>
-  > Learn how to predict part failures using XGBoost classification on GPUs with cuDF:
-    > - Prepare real data for efficient GPU ingestion with RAPIDS cuDF.
-    > - Train a classification model using GPU-accelerated XGBoost and CPU-only XGBoost.
-    > - Compare and discuss performance and accuracy results for XGBoost using CPUs, GPUs, and GPUs with cuDF.
-______________
-- 2 - Training LSTM Models Using Keras and TensorFlow for Time Series:
-  - [Lab2-LSTM-For-Timeseries](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab2-LSTM-For-Timeseries.ipynb) - Notebook;
-  - [Lab2-Presentation_202208](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab2-Presentation_202208.pptx) - Slides;
-<br></br>
-  > Learn how to predict part failures using a deep learning LSTM model with time-series data:
-    > - Prepare sequenced data for time-series model training.
-    > - Build and train a deep learning model with LSTM layers using Keras.
-    > - Evaluate the accuracy of the model.
-______________
-- 3 - Training Autoencoders for Anomaly Detection:
-  - [Lab3-AE-For-Anomaly-Detection](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab3-AE-For-Anomaly-Detection.ipynb) - Notebook;
-  - [Lab3-Presentation_202208](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab3-Presentation_202208.pptx) - Slides;
-  - [assignment](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/assignment.py) - Assessment;
-<br></br>
-  > Learn how to predict part failures using anomaly detection with autoencoders:
-    > - Build and train an LSTM autoencoder.
-    > - Develop and train a 1D convolutional autoencoder.
-    > - Experiment with hyperparameters and compare the results of the models.
+### 1 - Training XGBoost Models with RAPIDS for Time Series:
+- [Lab1-XGBoost-For-Timeseries](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab1-XGBoost-For-Timeseries.ipynb) - Notebook
+- [Lab1-Presentation_202208](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab1-Presentation_202208.pptx) - Slides
 
+Learn to predict part failures using XGBoost classification on GPUs with cuDF:
+- Prepare real data for efficient GPU ingestion with RAPIDS cuDF.
+- Train classification models using GPU-accelerated XGBoost and compare performance.
+
+### 2 - Training LSTM Models Using Keras and TensorFlow for Time Series:
+- [Lab2-LSTM-For-Timeseries](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab2-LSTM-For-Timeseries.ipynb) - Notebook
+- [Lab2-Presentation_202208](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab2-Presentation_202208.pptx) - Slides
+
+Learn to predict part failures using deep learning LSTM models with time-series data:
+- Prepare sequenced data for training LSTM models.
+- Build, train, and evaluate LSTM models using Keras and TensorFlow.
+
+### 3 - Training Autoencoders for Anomaly Detection:
+- [Lab3-AE-For-Anomaly-Detection](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab3-AE-For-Anomaly-Detection.ipynb) - Notebook
+- [Lab3-Presentation_202208](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Lab3-Presentation_202208.pptx) - Slides
+- [assignment](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/assignment.py) - Assessment
+
+Learn to predict part failures using anomaly detection with autoencoders:
+- Build and train LSTM and 1D convolutional autoencoders.
+- Experiment with hyperparameters and compare model results.
+
+<a name="certificate"></a>
+## Certificate
+
+Upon successful completion of the workshop and assessment, participants will receive an NVIDIA DLI certificate.
+
+<a name="quizzes"></a>
+## Quizzes
+
+### Quiz 1: 
+- [Quiz 1](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Quiz-1.txt) - Questions and Answers
+
+### Quiz 2: 
+- [Quiz 2](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Quiz-2.txt) - Questions and Answers
+
+### Quiz 3: 
+- [Quiz 3](https://github.com/SAIRAMROCKHY/Applications-of-AI-for-Predictive-Maintenance-NVIDIA/blob/main/Quiz-3.txt) - Questions and Answers
+
+
+Feel free to explore the workshop materials and quizzes. For any questions or feedback, please reach out!

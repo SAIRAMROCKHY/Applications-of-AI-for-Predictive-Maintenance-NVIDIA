@@ -1,0 +1,46 @@
+**Question 1**
+
+Which statement is not true on autocoders?
+
+- A) The output dimension is the same as the input dimension
+- B) The encoder encodes its input data into a smaller dimensional space, called the latent space
+- C) The decoder network tries to predict the sample class of the input
+- D) Autoencoders could be thought of as a generalization of the PCA method
+
+Answer:- C
+---
+
+**Question 2**
+
+What is ROC Curve?
+
+- A) A measure of a test's accuracy that considers both the precision and the recall of the test to compute the score
+- B) A plot used to indicate imbalances of data distribution
+- C) A performance measurement for classification problem at various thresholds settings
+
+Answer:- C
+---
+
+**Question 3**
+
+What statement is not accurate on "tanh" and "sigmoid" activation functions?
+
+- A) tanh is a rescaled logistic sigmoid function
+- B) The tanh function outputs range from -1 to 1
+- C) Sigmoid is especially used for models where we have to predict the probability as an output
+- D) The range of sigmoid function is also between -1 to 1
+
+Answer:- D
+---
+
+**Question 4**
+
+Which category of problems is not applicable to autoencoder models?
+
+- A) Denoising
+- B) Image reconstruction
+- C) Anomaly detection
+- D) Timeseries prediction
+- E) Feature extraction
+
+Answer:- C

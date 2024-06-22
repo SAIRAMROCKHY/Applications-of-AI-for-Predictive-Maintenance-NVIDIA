@@ -1,0 +1,56 @@
+**Question 1**
+
+Which statement(s) are accurate on the XGBoost classification model?
+
+- A) XGBoost can be applied to real-time industrial-level classification problems
+- B) XGBoost is designed based on a Linear-regression paradigm
+- C) XGBoost is designed based on the "Boosting" method
+- D) XGBOOST is designed based on decision trees
+
+Answer:- A,C,D
+---
+
+**Question 2**
+
+Why does XGBoost perform so well?
+
+- A) XGBoost library uses boosting models for data preprocessing and improves accuracy by acquiring SGD optimization
+- B) XGBoost uses GBM framework and utilizes system optimization and algorithmic enhancements
+- C) XGBoost uses Bayesian theory to apply strong priors on the data and is optimized for normally distributed data
+
+Answer:- B
+---
+
+**Question 3**
+
+What does the gamma parameter represent in XGBoost?
+
+- A) Minimum loss reduction required to split a node
+- B) Balance of positive and negative weights
+- C) Used to control over-fitting
+- D) Defines the maximum depth of the tree
+
+Answer:- A
+---
+
+**Question 4**
+
+cuDF is a fast replacement for which of the following libraries?
+
+- A) NumPy arrays
+- B) XGBoost DMatrix
+- C) Proto buffers
+- D) pandas DataFrame
+
+Answer:- D
+---
+
+**Question 5**
+
+Which statement is accurate about DMatrix?
+
+- A) DMatrix is an unordered data structure for deep learning algorithms
+- B) DMatrix is an interface for accelerated access to DataFrames
+- C) DMatrix is optimized for memory efficiency and training speed in XGBoost
+
+Answer:- C

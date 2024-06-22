@@ -1,0 +1,57 @@
+**Question 1**
+
+Which category of deep learning models do LSTMs belong to?
+
+- A) Autoencoders
+- B) RNNs
+- C) GANs
+- D) CNNs
+
+Answer:- B
+---
+
+**Question 2**
+
+Which statement(s) are accurate about LSTMs?
+
+- A) LSTMs are designed to work with sparse data and perform regularization internally
+- B) LSTM has the ability to remove or add information to the cell states using gates
+- C) LSTMs are a special kind of RNN, capable of learning long-term dependencies
+- D) LSTM cells use internal encoder/decoder gates to reduce dimensions of the data
+
+Answer:- B,c
+---
+
+**Question 3**
+
+Which statement best describes the "recall" value in the confusion matrix?
+
+- A) Indicates the number of samples belonging to the positive class while their true labels are negative
+- B) Indicates the ability of the model to identify all true positive samples of the dataset
+- C) Indicates the ability of the model to identify the relevant samples only
+- D) Indicates the number of samples belonging to the negative class while their true labels are positive
+
+Answer:- B
+---
+
+**Question 4**
+
+Which statement best describes the "precision" value in the confusion matrix?
+
+- A) Indicates the number of samples belonging to the positive class while their true labels are negative
+- B) Indicates the ability of the model to identify all true positive samples of the dataset
+- C) Indicates the ability of the model to identify the relevant samples only
+- D) Indicates the number of samples belonging to the negative class while their true labels are positive
+
+Answer:- C
+---
+
+**Question 5**
+
+What is the purpose of using a max-pooling layer?
+
+- A) To down-sample an input representation and reduce its dimensions
+- B) To find the maximum loss value among several epochs
+- C) To pool the maximum entropy values to be used on the next epoch
+
+Answer:- A
